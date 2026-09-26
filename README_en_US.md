@@ -326,6 +326,12 @@ If you don't want to handle it manually every time, you can choose the default p
 
 Please toggle off "Open Today's Diary Automatically" in the plugin settings.
 
+### Q: Why is the plugin unavailable on mobile after syncing, or disabled on desktop?
+
+SiYuan uses the `frontends` and `backends` fields in the package's `plugin.json` to determine whether the current device is compatible. Without a mobile declaration, the phone can receive the plugin files through sync but will not load the plugin; its disabled state can then be synchronized back to other devices.
+
+Update and enable v1.9.4 or later on a desktop device, sync once, then sync and restart SiYuan on the phone. The plugin requires SiYuan 3.7.0 or later.
+
 ### Q: Is the dropdown box used for selecting the default notebook?
 
 > - **Note: Don't misunderstand**, this drop-down box is not for selecting the default notebook, but for opening the diary quickly!

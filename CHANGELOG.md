@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2026-09-26] v1.9.4
+
+### Fixed
+
+- 在插件清单中明确声明所有前端和后端环境，包含 Android、iOS、鸿蒙及移动浏览器；移动端同步后可识别、安装并启用插件，不再因平台兼容性缺失而回写未启用状态。
+
 ## [2026-08-07] v1.9.3
 
 ### Changed
