@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- 预约日期为空或无效时禁用「确定」按钮，选择有效日期后启用，清空日期后再次禁用，避免未写入预约就关闭弹窗。
+
+### Changed
+
+- 手动预约日期提示调整为「请手动选择预约日期；可在设置中开启自动识别。」，并同步更新英文文案。
+
 ## [2026-09-26] v2.0.0
 
 ### Added
